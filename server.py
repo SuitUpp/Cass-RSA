@@ -6,7 +6,7 @@ public, private = rsa.newkeys()
 public2, private2 = rsa.newkeys()
 
 server = socket.socket()
-server.bind(('localhost',5051))
+server.bind(('localhost',5050))
 server.listen(10)
 
 conn, address = server.accept()

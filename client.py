@@ -3,7 +3,7 @@ import rsa
 from base64 import b64encode, b64decode
 
 client = socket.socket()
-client.connect(('localhost',5051))
+client.connect(('localhost',5050))
 
 
 choice = input('Choose any one.\n1.Encrption Decryption.\n2.Digital Signature.\n3.Both.\n4.Quit\n').encode()
